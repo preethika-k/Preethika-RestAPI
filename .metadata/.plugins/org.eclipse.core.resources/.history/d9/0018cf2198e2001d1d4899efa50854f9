@@ -1,0 +1,83 @@
+package com.example.review.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="mus")
+public class MuseumModel {
+@Id
+  private String m_name;
+  private int m_id;
+  private String location;
+  private int m_checkin;
+  private int m_chectout;
+  private int no_of_obj;
+  private String theme;
+  private String staff;
+  private String artifact_name;
+  private String gallery_name;
+  
+public String getArtifact_name() {
+	return artifact_name;
+}
+public void setArtifact_name(String artifact_name) {
+	this.artifact_name = artifact_name;
+}
+public String getM_name() {
+	return m_name;
+}
+public void setM_name(String m_name) {
+	this.m_name = m_name;
+}
+public int getM_id() {
+	return m_id;
+}
+public void setM_id(int m_id) {
+	this.m_id = m_id;
+}
+public int getM_checkin() {
+	return m_checkin;
+}
+public void setM_checkin(int m_checkin) {
+	this.m_checkin = m_checkin;
+}
+public int getM_chectout() {
+	return m_chectout;
+}
+public void setM_chectout(int m_chectout) {
+	this.m_chectout = m_chectout;
+}
+public int getNo_of_obj() {
+	return no_of_obj;
+}
+public void setNo_of_obj(int no_of_obj) {
+	this.no_of_obj = no_of_obj;
+}
+public String getStaff() {
+	return staff;
+}
+public void setStaff(String staff) {
+	this.staff = staff;
+}
+public String getLocation() {
+	return location;
+}
+public void setLocation(String location) {
+	this.location = location;
+}
+public String getGallery_name() {
+	return gallery_name;
+}
+public void setGallery_name(String gallery_name) {
+	this.gallery_name = gallery_name;
+}
+public String getTheme() {
+	return theme;
+}
+public void setTheme(String theme) {
+	this.theme = theme;
+}
+  
+}

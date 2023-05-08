@@ -1,11 +1,7 @@
 package com.example.review2.service;
-
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-
 import com.example.review2.model.MuseumsModel;
 import com.example.review2.repository.MuseumsRepository;
 
@@ -29,9 +25,10 @@ public MuseumsRepository repobj;
 	   return repobj.saveAndFlush(in);
    }
    //delete
-   public void deleteById(int m_id)
+   public String deleteById(int m_id)
    {
 	   repobj.deleteById(m_id);
+	   return "deleted";
    }
 
 }

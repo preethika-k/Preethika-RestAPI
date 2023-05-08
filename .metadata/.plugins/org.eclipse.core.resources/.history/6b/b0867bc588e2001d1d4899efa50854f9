@@ -1,7 +1,0 @@
-package com.example.review.Repo;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-public interface MeseumRepo extends JpaRepository<T, ID> {
-
-}

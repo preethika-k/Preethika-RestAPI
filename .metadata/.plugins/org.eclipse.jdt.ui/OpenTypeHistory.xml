@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=review-2/C:\/Users\/Acer\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.0.5\/spring-data-jpa-3.0.5.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.0.5=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1682063460009"/>
+    <typeInfo handle="=EduLoan/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.EduLoan.ServiceInterface{userInterface.java[userInterface" modifiers="513" timestamp="1683398768255"/>
+    <typeInfo handle="=EduLoan/C:\/Users\/Acer\/Downloads\/sts-4.18.0.RELEASE\/plugins\/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\/jre\/lib\/jrt-fs.jar`java.xml=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;org.w3c.dom(UserDataHandler.class[UserDataHandler" modifiers="1537" timestamp="1681796027314"/>
+</typeInfoHistroy>

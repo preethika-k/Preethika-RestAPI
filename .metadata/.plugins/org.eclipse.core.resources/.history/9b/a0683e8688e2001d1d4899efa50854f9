@@ -1,5 +1,0 @@
-package com.example.review.Repo;
-
-public interface MuseumRepo {
-
-}
